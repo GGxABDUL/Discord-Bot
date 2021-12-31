@@ -29,8 +29,6 @@ module.exports = keepAlive;
 
 
 const keepAlive = require("./server.js");
-
-await s4d.client.login('Put your bot token here').catch((e) => { s4d.tokenInvalid = true; s4d.tokenError = e; });
 keepAlive()
 
 
