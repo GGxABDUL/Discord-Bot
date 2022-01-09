@@ -2,7 +2,7 @@ Update your node.js to v17 and update your discord.js to v13
 Make sure you put this code on shell
 ________________________________________________________________________________________________________________________________________________________
 
-npm i discord.js@latest && npm i --save-dev node@17 && npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH
+npm init -y && npm i discord.js@latest && npm i --save-dev node@17 && npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH
 
 ________________________________________________________________________________________________________________________________________________________
 I hope this help you xD
